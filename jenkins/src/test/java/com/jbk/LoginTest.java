@@ -12,7 +12,7 @@ public class LoginTest {
 
 @BeforeMethod
 public void setUp(){
-	System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "chromedriver2.exe");
 	 driver = new ChromeDriver();
 	driver.get("file:///E:/Offline%20Website/Offline%20Website/index.html");
 	lp= new LoginPage(driver);
