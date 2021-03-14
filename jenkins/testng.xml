@@ -5,7 +5,7 @@
   <classes>
       <class name="com.jbk.LoginTest"/>
       <class name="com.jbk.LoginPage"/>
-      
+      <class name="com.jbk.Login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
