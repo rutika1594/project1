@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginTest {
 	WebDriver driver;
 	LoginPage lp =null;
-	
+
 @BeforeMethod
 public void setUp(){
 	System.setProperty("webdriver.chrome.driver", "chromedriver.exe");

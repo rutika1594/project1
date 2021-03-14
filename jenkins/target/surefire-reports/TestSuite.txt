@@ -1,4 +1,39 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.614 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 6.927 s <<< FAILURE! - in TestSuite
+com.jbk.LoginTest.setUp  Time elapsed: 6.609 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 89.0.4389.90 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MO03C8A', ip: '192.168.43.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x013DC0C3+3326147]
+	Ordinal0 [0x012C0851+2164817]
+	Ordinal0 [0x01147298+619160]
+	Ordinal0 [0x010C1D92+73106]
+	Ordinal0 [0x010BE119+57625]
+	Ordinal0 [0x010BC38A+50058]
+	Ordinal0 [0x010E5F3E+220990]
+	Ordinal0 [0x010E5CAC+220332]
+	Ordinal0 [0x010E189B+202907]
+	Ordinal0 [0x010C3DF4+81396]
+	Ordinal0 [0x010C4DEE+85486]
+	Ordinal0 [0x010C4D79+85369]
+	Ordinal0 [0x012D85DC+2262492]
+	GetHandleVerifier [0x01562874+1487204]
+	GetHandleVerifier [0x015623CD+1486013]
+	GetHandleVerifier [0x0156A368+1518680]
+	GetHandleVerifier [0x01562F4E+1488958]
+	Ordinal0 [0x012CED0D+2223373]
+	Ordinal0 [0x012DA12B+2269483]
+	Ordinal0 [0x012DA26F+2269807]
+	Ordinal0 [0x012EECB8+2354360]
+	BaseThreadInitThunk [0x75E3FE09+25]
+	RtlGetAppContainerNamedObjectPath [0x77A8607D+237]
+	RtlGetAppContainerNamedObjectPath [0x77A8604D+189]
+
+	at com.jbk.LoginTest.setUp(LoginTest.java:16)
+
